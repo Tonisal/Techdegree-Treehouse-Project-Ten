@@ -1,0 +1,22 @@
+
+//Colors
+$white: #fff;
+$black: #000;
+$grey: #B2B2B2;
+
+
+//Breakpoints
+$screen-md-min: 768px;
+
+
+//Default
+$transition-style: 0.2s ease-out;
+$border-radius-circular: 50%;
+$border-radius-round-corners: 0.5rem;
+$border-style: 1px solid $grey;
+
+
+// Grid columns
+// Set the number of columns and specify the width of the gutters.
+$grid-columns:                  12;
+$grid-gutter-width:             2rem;

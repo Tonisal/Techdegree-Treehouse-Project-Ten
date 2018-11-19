@@ -1,0 +1,26 @@
+@import "variables";
+@import "reboot";
+@import "grid";
+
+
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+
+
+.employee-card {
+    border: $border-style;
+    border-radius: $border-radius-round-corners;
+    padding: 2.5rem;
+    display: flex;
+
+    img {
+        width: 8rem;
+        height: 8rem;
+        border-radius: $border-radius-circular;
+    }
+}
