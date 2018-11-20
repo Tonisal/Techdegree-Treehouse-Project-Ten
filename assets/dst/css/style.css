@@ -292,10 +292,12 @@ h1 {
   font-size: 1.8rem; }
 
 a {
-  color: #B2B2B2; }
+  color: #B2B2B2;
+  transition: scale 0.2s ease-out; }
   a:hover {
     cursor: pointer;
-    color: #B2B2B2; }
+    color: #B2B2B2;
+    transform: scale(1.02); }
 
 hr {
   width: 100%;

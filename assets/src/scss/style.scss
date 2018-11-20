@@ -14,10 +14,12 @@ h1 {
 
 a {
     color: $grey;
+    transition: scale $transition-style;
 
     &:hover {
         cursor: pointer;
         color: $grey;
+        transform: scale(1.02);
     }
 }
 
