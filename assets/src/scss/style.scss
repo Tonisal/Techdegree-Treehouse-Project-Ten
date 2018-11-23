@@ -69,6 +69,7 @@ hr {
 }
 
 .employee-modal {
+    margin-top: 5rem;
     border: $border-style;
     border-radius: $border-radius-round-corners;
     background-color: $white;
@@ -81,7 +82,6 @@ hr {
     margin-right: auto;
     margin-left: auto;
     position: absolute;
-    margin-top: 10rem;
     display: none;
     color: $grey;
 
@@ -112,6 +112,7 @@ hr {
     z-index: 2;
     justify-content: center;
     display: none;
+    overflow-y: auto;
 
     &.show {
         display: flex;

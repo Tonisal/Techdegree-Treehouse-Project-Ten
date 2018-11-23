@@ -330,6 +330,7 @@ hr {
       text-transform: uppercase; }
 
 .employee-modal {
+  margin-top: 5rem;
   border: 1px solid #B2B2B2;
   border-radius: 0.5rem;
   background-color: #fff;
@@ -342,7 +343,6 @@ hr {
   margin-right: auto;
   margin-left: auto;
   position: absolute;
-  margin-top: 10rem;
   display: none;
   color: #B2B2B2; }
   .employee-modal * {
@@ -363,7 +363,8 @@ hr {
   left: 0;
   z-index: 2;
   justify-content: center;
-  display: none; }
+  display: none;
+  overflow-y: auto; }
   .modal-container.show {
     display: flex; }
 
